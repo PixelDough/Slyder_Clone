@@ -6,6 +6,16 @@ if keyboard_check_pressed(vk_escape) {
 	game_end();
 }
 
+if current_item == 1 and !mouse_check_button(mb_left) and !mouse_check_button(mb_right) {
+	if (mouse_x - round_n(mouse_x, 16)) < (mouse_y - round_n(mouse_y, 16)) {
+		items[1, 0] = spr_wall_v;
+		items[1, 1] = obj_wall_v;
+	} else {
+		items[1, 0] = spr_wall_h;
+		items[1, 1] = obj_wall_h;
+	}
+}
+
 if mouse_check_button(mb_left) {
 	if !collision_point(round_n(mouse_x, 16), round_n(mouse_y, 16), items[current_item, 1], false, true) {
 		instance_create_layer(round_n(mouse_x, 16), round_n(mouse_y, 16), items[current_item, 2], items[current_item, 1]);
