@@ -26,6 +26,10 @@ if moving {
 }
 
 if place_meeting(x + hspeed, y + vspeed, obj_wall) {
+	while !place_meeting(x+sign(hspeed), y+sign(vspeed), obj_wall) {
+		x += sign(hspeed)
+		y += sign(vspeed)
+	}
 	speed = 0;
 	move_snap(8, 8);
 	moving = false
