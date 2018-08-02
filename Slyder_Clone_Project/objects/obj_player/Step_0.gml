@@ -1,3 +1,5 @@
+
+
 if !moving {
 	if keyboard_check_pressed(vk_right) {
 		dir = 0;

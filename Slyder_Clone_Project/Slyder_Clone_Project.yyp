@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "3a6716b6-54f4-4c37-9984-f36bf4bdca8f",
+            "Value": {
+                "id": "a3c0ae45-ccb8-4535-848c-dac452c80f7c",
+                "resourcePath": "scripts\\save_data_get_key\\save_data_get_key.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3abdab0f-919a-4358-82b2-6134e95629c3",
             "Value": {
                 "id": "096ea4e1-03d1-454f-b51c-950bcce9b49d",
@@ -359,6 +367,14 @@
             }
         },
         {
+            "Key": "ba2b2897-dee3-4a54-9333-3cd6b43b1511",
+            "Value": {
+                "id": "a5c3d5e3-413e-42ea-83a6-537ea9bc9de5",
+                "resourcePath": "sounds\\snd_FunkGameLoop\\snd_FunkGameLoop.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "bbbe4860-a934-454b-b2ea-c510495ccd90",
             "Value": {
                 "id": "aee9539b-9ee4-4ada-9afe-aee7b1490bb8",
@@ -396,6 +412,14 @@
                 "id": "7fbd3f1b-cb4f-4100-92e4-bb85dfbe7ac6",
                 "resourcePath": "options\\windows\\options_windows.yy",
                 "resourceType": "GMWindowsOptions"
+            }
+        },
+        {
+            "Key": "d280a8fe-f15e-4404-9d0d-365f8abcd8ba",
+            "Value": {
+                "id": "0384b944-52d1-4d2f-82cf-482ae8bc3af1",
+                "resourcePath": "sounds\\snd_StreetParty\\snd_StreetParty.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -491,7 +515,8 @@
         "a14e8fd7-92b8-4545-8a08-91a55d6be282",
         "8511c31f-e8af-4c27-9c5e-8d3b1158349f",
         "9786f53d-422e-4c6b-b45f-7190fd9f433f",
-        "bbbe4860-a934-454b-b2ea-c510495ccd90"
+        "bbbe4860-a934-454b-b2ea-c510495ccd90",
+        "3a6716b6-54f4-4c37-9984-f36bf4bdca8f"
     ],
     "tutorial": ""
 }
