@@ -15,3 +15,5 @@ items[2, 1] = obj_player;
 items[2, 2] = "Instances_1";
 
 current_item = 0;
+
+depth = -500

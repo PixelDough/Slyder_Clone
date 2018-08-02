@@ -1,4 +1,4 @@
-if place_snapped(16, 16) and !moving {
+if !moving {
 	if keyboard_check_pressed(vk_right) {
 		dir = 0;
 		moving = true;
@@ -25,7 +25,7 @@ if moving {
 
 if place_meeting(x + hspeed, y + vspeed, obj_wall) {
 	speed = 0;
-	move_snap(16, 16);
+	move_snap(8, 8);
 	moving = false
 }
 
