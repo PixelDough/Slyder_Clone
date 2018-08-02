@@ -1,9 +1,11 @@
-var _walls = ds_map_create();
+ini_open("SavedLevel");
+
 with all {
-	if object_index == obj_wall or object_get_parent(self) == obj_wall {
-		//ds_map_add(_walls, "Wall")
+	if object_get_parent(id) == level_element {
+		ini_write_real(object_get_name(id), "Type", object_index);
+		ini_write_real(object_get_name(id), "X", x);
+		ini_write_real(object_get_name(id), "Y", y);
 	}
 }
-for(var _i=0; _i<instance_number(obj_wall); _i++) {
-	//ds_grid_add(_walls, _i, 1, id);
-}
+
+ini_close();
