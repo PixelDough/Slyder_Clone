@@ -9,7 +9,7 @@ if keyboard_check_pressed(vk_escape) {
 
 
 if keyboard_check_pressed(ord("S")) {
-	surface_resize(application_surface, window_get_width(), window_get_height());
+	surface_resize(application_surface, round_n(window_get_width(), 512), round_n(window_get_height(), 288));
 }
 
 event_user(global.mode);
