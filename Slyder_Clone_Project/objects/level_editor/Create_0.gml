@@ -8,6 +8,9 @@ items[1, 2] = "Walls";
 items[2, 0] = spr_player_test;
 items[2, 1] = obj_player;
 items[2, 2] = "Objects";
+items[3, 0] = spr_roof1;
+items[3, 1] = obj_roof1;
+items[3, 2] = "Walls";
 
 current_item = 0;
 
