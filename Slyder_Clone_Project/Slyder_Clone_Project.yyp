@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "f7d629ef-db3c-4535-b53f-e1922828666b",
+            "Value": {
+                "id": "d7007e6f-1142-4a51-8054-1592c368d177",
+                "resourcePath": "sprites\\spr_level_editor\\spr_level_editor.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "fb68e66a-6e77-49c2-97fa-40353eec0b30",
             "Value": {
                 "id": "1e6cc63c-230d-40d1-89fe-2d6984a2bb0c",

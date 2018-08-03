@@ -4,7 +4,10 @@
 // Inherit the parent event
 event_inherited();
 
+x += vx;
+y += vy;
 
+moving = (vx != 0) or (vy != 0);
 
 if !moving {
 	if obj_input.right_pressed {
@@ -25,8 +28,12 @@ if !moving {
 	}
 }
 
+
+
 direction = dir * 90;
 
 if moving {
-	speed += 1;
+	//speed += 1;
+	vx += lengthdir_x(1, direction)
+	vy += lengthdir_y(1, direction)
 }
