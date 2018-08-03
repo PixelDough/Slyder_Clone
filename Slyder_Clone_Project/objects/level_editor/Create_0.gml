@@ -11,6 +11,9 @@ items[2, 2] = "Objects";
 items[3, 0] = spr_roof1;
 items[3, 1] = obj_roof1;
 items[3, 2] = "Walls";
+items[4, 0] = spr_enemy_test;
+items[4, 1] = obj_enemy;
+items[4, 2] = "Objects";
 
 current_item = 0;
 

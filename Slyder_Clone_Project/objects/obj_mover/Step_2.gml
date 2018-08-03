@@ -25,7 +25,8 @@ if moving {
 	speed =2;
 }
 
-if place_meeting(x + hspeed, y + vspeed, obj_wall) {
+var _hit = instance_place(x + hspeed, y + vspeed, obj_wall);
+if _hit {
 	while !place_meeting(x+sign(hspeed), y+sign(vspeed), obj_wall) {
 		x += sign(hspeed);
 		y += sign(vspeed);
@@ -33,6 +34,9 @@ if place_meeting(x + hspeed, y + vspeed, obj_wall) {
 	speed = 0;
 	move_snap(8, 8);
 	moving = false;
+	if (_hit.object_index == obj_enemy and dies) or (_hit.object_index == obj_player and self.object_index == obj_enemy) {
+		room_restart();
+	}
 }
 
 if place_empty(x, y){
