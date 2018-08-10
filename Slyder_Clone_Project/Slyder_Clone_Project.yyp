@@ -135,6 +135,14 @@
             }
         },
         {
+            "Key": "2bb3af24-9cf2-4a58-85a4-f778c28a2520",
+            "Value": {
+                "id": "b588ba02-acfc-4e81-bdc1-7fe2c7ba7c3b",
+                "resourcePath": "objects\\obj_mover_controller\\obj_mover_controller.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2ece6b88-d5f0-4669-a7b2-883e8b11e91a",
             "Value": {
                 "id": "c8656e18-4b60-46f6-afa0-4fb3d87d9ff3",

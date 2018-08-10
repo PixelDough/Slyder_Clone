@@ -1,11 +1,13 @@
+/// @description MOVING STATE
 
+speed += 1
 
 //var _hit = instance_place(x + hspeed, y + vspeed, obj_wall);
-var _hit_l = bbox_left + min(vx, 0);
-var _hit_r = bbox_right + max(vx, 0);
-var _hit_u = bbox_top + min(vy, 0);
-var _hit_d = bbox_bottom + max(vy, 0);
-var _hit =	collision_rectangle(_hit_l, _hit_u, _hit_r, _hit_d, obj_wall, false, true);
+var _move_l = bbox_left + min(hspeed, 0);
+var _move_r = bbox_right + max(hspeed, 0);
+var _move_u = bbox_top + min(vspeed, 0);
+var _move_d = bbox_bottom + max(vspeed, 0);
+var _hit =	collision_rectangle(_move_l, _move_u, _move_r, _move_d, obj_wall, false, true);
 if _hit {
 	
 	var _do_collision = true;
@@ -17,20 +19,21 @@ if _hit {
 	
 	if _do_collision {
 		
-		while !place_meeting(x+sign(vx), y+sign(vy), obj_wall) {
-			x += sign(vx);
-			y += sign(vy);
+		while !place_meeting(x+sign(hspeed), y+sign(vspeed), obj_wall) {
+			x += sign(hspeed);
+			y += sign(vspeed);
 		}
 		while place_meeting(x, y, obj_wall) {
-			x -= sign(vx);
-			y -= sign(vy);
+			x -= sign(hspeed);
+			y -= sign(vspeed);
 		}
-		vx = 0;
-		vy = 0;
+		speed = 0;
 		move_snap(16, 16);
+		STATE = MOVE.STOP;
 		if (_hit.object_index == obj_enemy and dies) or (_hit.object_index == obj_player and self.object_index == obj_enemy) {
 			room_restart();
 		}
+		
 	}
 	
 }
