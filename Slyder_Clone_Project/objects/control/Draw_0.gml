@@ -1,2 +1,2 @@
 
-draw_sprite(spr_cursor, 0, mouse_x-8, mouse_y-8)
+draw_sprite_ext(spr_cursor, 1, mouse_x, mouse_y, 1, 1, global.time, c_white, 1)

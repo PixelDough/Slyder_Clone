@@ -1,18 +1,19 @@
 /// @description START STATE
 
 var _hit = false;
+var _buffer = 16
 
 if dir = 0 {
-	_hit = instance_place(x+8, y, obj_wall);
+	_hit = instance_place(x+_buffer, y, obj_wall);
 }
 if dir = 1 {
-	_hit = instance_place(x, y-8, obj_wall);
+	_hit = instance_place(x, y-_buffer, obj_wall);
 }
 if dir = 2 {
-	_hit = instance_place(x-8, y, obj_wall);
+	_hit = instance_place(x-_buffer, y, obj_wall);
 }
 if dir = 3 {
-	_hit = instance_place(x, y+8, obj_wall);
+	_hit = instance_place(x, y+_buffer, obj_wall);
 }
 
 direction = dir * 90;

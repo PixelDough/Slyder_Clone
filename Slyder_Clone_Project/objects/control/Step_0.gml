@@ -13,3 +13,5 @@ if keyboard_check_pressed(ord("S")) {
 }
 
 event_user(global.mode);
+
+global.time++;
