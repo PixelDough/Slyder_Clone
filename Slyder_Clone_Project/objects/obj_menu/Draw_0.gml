@@ -1,1 +1,1 @@
-draw_text_wave(room_width/2, room_height/4, "Tilted!");
+draw_text_wave(room_width/2, room_height/4, "Tilted!", 1, 10);

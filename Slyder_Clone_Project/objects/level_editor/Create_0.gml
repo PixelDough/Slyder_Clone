@@ -27,3 +27,5 @@ items[4, 3] = "Enemy";
 current_item = 0;
 
 depth = -500
+
+text_wave_amp = 1

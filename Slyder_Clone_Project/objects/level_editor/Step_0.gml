@@ -22,10 +22,14 @@ if mouse_check_button(mb_right) {
 
 if mouse_wheel_up() {
 	current_item = min(current_item+1, array_height_2d(items)-1);
+	text_wave_amp = 5
 }
 if mouse_wheel_down() {
 	current_item = max(current_item-1, 0);
+	text_wave_amp = 5
 }
 
 if keyboard_check_pressed(vk_enter) save_level();
 if keyboard_check_pressed(vk_shift) load_level();
+
+text_wave_amp = lerp(text_wave_amp, 1, 0.1);
