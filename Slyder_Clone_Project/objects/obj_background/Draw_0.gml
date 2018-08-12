@@ -2,7 +2,8 @@
 for (var _i=0; _i < array_length_1d(objects); _i++) {
 	var _object = objects[_i];
 	for (var _y = 0; _y < 1; _y++) {
-		draw_sprite_ext(sprite_index, _object[0], _object[1], _object[2]-_y, _object[5], _object[5], _object[3], c_white, 1);
+		draw_sprite_ext(spr_shapes, _object[0], _object[1], _object[2]-_y, _object[5], _object[5], _object[3], c_white, 1);
+		//draw_sprite_ext(spr_shapes_white, _object[0], _object[1], _object[2]-_y, _object[5], _object[5], _object[3], color_palette[_object[6]], 1);
 	}
 	_object[3] ++
 	

@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "1ce7dd6e-1fd9-4315-89b8-44d174583576",
+            "Value": {
+                "id": "d7fbf908-d6bc-4bac-9dcd-9acf82d4e901",
+                "resourcePath": "sprites\\spr_shapes_white\\spr_shapes_white.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "20ccfb69-28f7-41bf-bb09-4a330a8d7f36",
             "Value": {
                 "id": "b8c82d52-b451-4786-8978-ad4de0c7c131",

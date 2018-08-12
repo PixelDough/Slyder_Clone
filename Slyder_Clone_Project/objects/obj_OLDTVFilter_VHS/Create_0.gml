@@ -31,18 +31,18 @@ global.dirt_magnetude = 0.05;
 
 //  Composite Settings
 global.composite_enabled = true;
-global.composite_secondpass_enabled = false;
+global.composite_secondpass_enabled = true;
 global.composite_distortion = 0.5;          //  0.0 ~ 1.0
 global.composite_artifact = 0.2;            //  0.0 ~ 1.0
 global.composite_fringing = 0.7;            //  0.0 ~ 1.0
-global.composite_bleeding = 1.0;            //  0.0 ~ 1.0
+global.composite_bleeding = 0.5;            //  0.0 ~ 1.0
 
 //  Television Settings
 global.television_enabled = true;
 global.television_brightness = 0.0;         // -1.0 ~ 1.0
 global.television_contrast = 0.1;           // -1.0 ~ 1.0
 global.television_saturation = 0.5;         //  0.0 ~ 1.0
-global.television_sharpness = 0.0;         // -1.0 ~ 1.0
+global.television_sharpness = 0;         // -1.0 ~ 1.0
 
 //  Chromatic Aberration
 global.chromatic_enabled = true;
