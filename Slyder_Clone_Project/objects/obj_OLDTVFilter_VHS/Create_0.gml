@@ -23,8 +23,8 @@ global.noise_enabled = true;
 global.noise_pattern = sprite_get_texture(sprNoise1,0);
 global.noise_magnetude = 0.125;
 global.static_pattern = sprite_get_texture(sprStatic1,0);
-global.static_magnetude = 0.01;
-global.static_scale = 1.0;
+global.static_magnetude = 0.05;
+global.static_scale = 0.5;
 global.static_offset = 0.0;
 global.dirt_pattern = sprite_get_texture(sprNoise1,0);
 global.dirt_magnetude = 0.05;
@@ -40,24 +40,24 @@ global.composite_bleeding = 1.0;            //  0.0 ~ 1.0
 //  Television Settings
 global.television_enabled = true;
 global.television_brightness = 0.0;         // -1.0 ~ 1.0
-global.television_contrast = 0.0;           // -1.0 ~ 1.0
+global.television_contrast = 0.1;           // -1.0 ~ 1.0
 global.television_saturation = 0.5;         //  0.0 ~ 1.0
 global.television_sharpness = 0.0;         // -1.0 ~ 1.0
 
 //  Chromatic Aberration
 global.chromatic_enabled = true;
 global.chromatic_pattern = sprite_get_texture(sprChromatic1,0);
-global.chromatic_magnetude = 0.05;         // -1.0 ~ 1.0
+global.chromatic_magnetude = 0.1;         // -1.0 ~ 1.0
 
 //  Scanline Settings
-global.scanline_enabled = false;
+global.scanline_enabled = true;
 global.scanline_count = camera_get_view_height(view_camera[0]);
 global.scanline_pattern = sprite_get_texture(sprScanline1,0);        
-global.scanline_magnetude = 0.5            //  0.0 ~ 1.0
+global.scanline_magnetude = 0.25;            //  0.0 ~ 1.0
 
 //  Tube Settings
 global.tube_enabled = true;
 global.tube_mask = sprite_get_texture(sprMaskWide1,0);
-global.tube_distortion = 0.15;              // -1.0 ~ 1.0
+global.tube_distortion = 0.5;              // -1.0 ~ 1.0
 
 script_execute( scr_OLDTVFilter_Setup );
