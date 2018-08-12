@@ -1,6 +1,6 @@
 /// @description MOVING STATE
 
-speed += 0.5
+speed += 0.5;
 
 //var _hit = instance_place(x + hspeed, y + vspeed, obj_wall);
 var _move_l = bbox_left + min(hspeed, 0);
