@@ -30,8 +30,11 @@ if _hit {
 		speed = 0;
 		move_snap(16, 16);
 		STATE = MOVE.STOP;
-		if (_hit.object_index == obj_enemy and dies) or (_hit.object_index == obj_player and self.object_index == obj_enemy) {
-			room_restart();
+		if (_hit.object_index == obj_enemy and dies) {
+			instance_destroy();
+		}
+		if (_hit.object_index == obj_player and self.object_index == obj_enemy) {
+			instance_destroy(_hit);
 		}
 		
 	}
@@ -39,5 +42,5 @@ if _hit {
 }
 
 if place_empty(x, y){
-	room_restart();
+	instance_destroy();
 }

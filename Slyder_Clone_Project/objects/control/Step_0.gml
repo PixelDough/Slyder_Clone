@@ -16,6 +16,10 @@ if keyboard_check_pressed(ord("F")) {
 	window_set_fullscreen(!window_get_fullscreen())
 }
 
+if keyboard_check_pressed(ord("R")) {
+	room_restart();
+}
+
 event_user(global.mode);
 
 global.time++;

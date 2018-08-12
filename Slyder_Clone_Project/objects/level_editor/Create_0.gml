@@ -24,6 +24,11 @@ items[4, 1] = obj_enemy;
 items[4, 2] = "Objects";
 items[4, 3] = "Enemy";
 
+items[5, 0] = spr_ball;
+items[5, 1] = obj_ball;
+items[5, 2] = "Objects";
+items[5, 3] = "Ball";
+
 current_item = 0;
 
 depth = -500

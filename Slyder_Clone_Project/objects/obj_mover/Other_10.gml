@@ -9,7 +9,7 @@ with all {
 	}
 }
 
-if _can_move {
+if _can_move and global.mode = MODES.PLAY {
 	if obj_input.right_pressed {
 		dir = 0;
 		STATE = MOVE.START;
