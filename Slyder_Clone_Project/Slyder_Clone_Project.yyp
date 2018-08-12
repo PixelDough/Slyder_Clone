@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "2a76fe81-9865-4684-8d7d-0346fd510aa5",
+            "Value": {
+                "id": "3fe8af4b-c3f2-452a-ac49-98b0fd00380d",
+                "resourcePath": "sprites\\spr_goal\\spr_goal.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2ece6b88-d5f0-4669-a7b2-883e8b11e91a",
             "Value": {
                 "id": "c8656e18-4b60-46f6-afa0-4fb3d87d9ff3",
@@ -647,6 +655,14 @@
             }
         },
         {
+            "Key": "93d14f8f-7e42-4fd9-92e2-00e076f0c0d4",
+            "Value": {
+                "id": "723f5ab1-affc-4d1e-b05b-c55bd355b40d",
+                "resourcePath": "objects\\obj_goal\\obj_goal.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93ffdd91-5957-4fb4-b75d-214add35ba84",
             "Value": {
                 "id": "fdcaf993-93db-4640-8bc0-60a6ad4a9c46",
@@ -675,6 +691,14 @@
             "Value": {
                 "id": "c7b5d136-4c7b-4c3d-9531-3940127162fe",
                 "resourcePath": "views\\97feaa39-6e05-43ae-8565-ad9a2c22e1a6.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9853d52e-3500-40ee-812a-204faccbbdec",
+            "Value": {
+                "id": "926c4498-8ad3-4ba0-a889-19f8cd20b26c",
+                "resourcePath": "views\\9853d52e-3500-40ee-812a-204faccbbdec.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -748,6 +772,14 @@
                 "id": "88655a4c-1415-4ebd-bcd2-c3dcdc61817e",
                 "resourcePath": "sprites\\spr_ArcadeBG\\spr_ArcadeBG.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a768d18c-b51e-41e7-8e35-9f02c2ecc084",
+            "Value": {
+                "id": "3ea4abea-6f65-4d04-aae5-c699ba4da6aa",
+                "resourcePath": "views\\a768d18c-b51e-41e7-8e35-9f02c2ecc084.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
@@ -916,6 +948,14 @@
                 "id": "9afc89bd-869b-4dc0-b6a4-1f9740774228",
                 "resourcePath": "sounds\\mus_StillWeakerThanThem\\mus_StillWeakerThanThem.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "da91c38c-5478-46d2-b9fb-5640d29e4194",
+            "Value": {
+                "id": "db00c978-862b-4484-8e3d-46527d247f88",
+                "resourcePath": "sprites\\spr_ArcadeBG2\\spr_ArcadeBG2.yy",
+                "resourceType": "GMSprite"
             }
         },
         {

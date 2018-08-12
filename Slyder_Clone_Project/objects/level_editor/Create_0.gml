@@ -29,6 +29,11 @@ items[5, 1] = obj_ball;
 items[5, 2] = "Objects";
 items[5, 3] = "Ball";
 
+items[6, 0] = spr_goal;
+items[6, 1] = obj_goal;
+items[6, 2] = "Objects";
+items[6, 3] = "Goal";
+
 current_item = 0;
 
 depth = -500

@@ -17,19 +17,19 @@ if mouse_check_button(mb_left) {
 	}
 }
 if mouse_check_button(mb_right) {
-	instance_destroy(object)
+	instance_destroy(object);
 }
 
 if mouse_wheel_up() {
 	current_item = min(current_item+1, array_height_2d(items)-1);
-	text_wave_amp = 5
+	text_wave_amp = 8;
 }
 if mouse_wheel_down() {
 	current_item = max(current_item-1, 0);
-	text_wave_amp = 5
+	text_wave_amp = 8;
 }
 
-if keyboard_check_pressed(vk_enter) save_level();
-if keyboard_check_pressed(vk_shift) load_level();
+if keyboard_check_pressed(ord("S")) save_level();
+if keyboard_check_pressed(ord("L")) load_level();
 
-text_wave_amp = lerp(text_wave_amp, 1, 0.1);
+text_wave_amp = lerp(text_wave_amp, 2, 0.05);

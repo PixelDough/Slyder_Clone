@@ -8,8 +8,10 @@ if keyboard_check_pressed(vk_escape) {
 
 
 
-if keyboard_check_pressed(ord("S")) {
-	surface_resize(application_surface, round_n(window_get_width(), 512), round_n(window_get_height(), 288));
+if surface_exists(application_surface) {
+	if global.surface_width != round_n(global.surface_width, 512) or global.surface_height != round_n(global.surface_height, 288) {
+		surface_resize(application_surface, round_n(global.surface_width, 512), round_n(global.surface_height, 288));
+	}
 }
 
 if keyboard_check_pressed(ord("F")) {
