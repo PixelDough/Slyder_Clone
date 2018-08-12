@@ -12,6 +12,10 @@ if keyboard_check_pressed(ord("S")) {
 	surface_resize(application_surface, round_n(window_get_width(), 512), round_n(window_get_height(), 288));
 }
 
+if keyboard_check_pressed(ord("F")) {
+	window_set_fullscreen(!window_get_fullscreen())
+}
+
 event_user(global.mode);
 
 global.time++;
