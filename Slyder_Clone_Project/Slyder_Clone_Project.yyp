@@ -855,6 +855,14 @@
             }
         },
         {
+            "Key": "dec7035a-a601-4161-b0ee-99f69846399a",
+            "Value": {
+                "id": "5a2621c8-aece-4f42-acab-244ce841c55a",
+                "resourcePath": "sounds\\mus_SpacialHarvest\\mus_SpacialHarvest.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "e049ea5d-bcfa-43d4-a3c1-65bfb8ba706c",
             "Value": {
                 "id": "af1d1405-ca1a-478b-829a-f31b68c57851",

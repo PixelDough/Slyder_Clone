@@ -6,7 +6,8 @@ enum MODES {
 global.mode = MODES.EDIT
 
 randomize()
-//audio_play_sound(choose(snd_Overcast), 100, true);
+var _music = audio_play_sound(mus_SpacialHarvest, 100, true);
+audio_sound_set_track_position(_music, random_range(30, 180))
 
 global.time = 1;
 //!"^~`#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[_]" 
