@@ -21,7 +21,7 @@ global.game_lines = camera_get_view_height(view_camera[0]);
 //  Noise
 global.noise_enabled = true;
 global.noise_pattern = sprite_get_texture(sprNoise1,0);
-global.noise_magnetude = -0.2;              // -1.0 ~ 1.0
+global.noise_magnetude = 0.2;              // -1.0 ~ 1.0
 global.static_pattern = sprite_get_texture(sprStatic1,0);
 global.static_magnetude = 0.1;              // 0.0 ~ 1.0
 global.static_offset = 0.0;                 // -1.0 ~ 1.0

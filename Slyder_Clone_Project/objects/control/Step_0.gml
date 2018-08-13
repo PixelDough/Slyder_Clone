@@ -19,7 +19,7 @@ if keyboard_check_pressed(ord("F")) {
 }
 
 if keyboard_check_pressed(ord("R")) {
-	room_restart();
+	room_goto_fade(room);
 }
 
 if keyboard_check_pressed(ord("T")) global.oldtvfilter_enabled = !global.oldtvfilter_enabled; //TV Shader

@@ -7,7 +7,7 @@ var _list = ds_list_create();
 
 with all {
 	if object_is_ancestor(object_index, level_element) {
-		ds_list_add(_list, [x, y, layer_get_name(layer), object_index]);
+		ds_list_add(_list, [x, y, layer_get_name(layer), object_get_name(object_index)]);
 	}
 }
 

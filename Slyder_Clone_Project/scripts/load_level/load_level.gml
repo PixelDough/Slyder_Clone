@@ -16,7 +16,7 @@ if !ds_list_empty(_list) {
 	for (var _i=0; _i < ds_list_size(_list); _i++) {
 	
 		var _object = _list[| _i];
-		instance_create_layer(_object[0], _object[1], _object[2], _object[3]);
+		instance_create_layer(_object[0], _object[1], _object[2], asset_get_index(_object[3]));
 	
 	}
 }
