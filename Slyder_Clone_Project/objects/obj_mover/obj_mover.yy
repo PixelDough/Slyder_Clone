@@ -95,6 +95,34 @@
             "value": "True",
             "varName": "dies",
             "varType": 3
+        },
+        {
+            "id": "799d55dc-eb6f-4b07-b81a-0928c88ffe33",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "move_v",
+            "varType": 3
+        },
+        {
+            "id": "4f7cf952-de4c-424c-9e99-2e792317d754",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "True",
+            "varName": "move_h",
+            "varType": 3
         }
     ],
     "solid": false,

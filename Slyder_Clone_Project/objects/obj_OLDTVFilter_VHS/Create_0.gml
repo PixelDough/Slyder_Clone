@@ -27,7 +27,7 @@ global.static_magnetude = 0.05;
 global.static_scale = 0.5;
 global.static_offset = 0.0;
 global.dirt_pattern = sprite_get_texture(sprNoise1,0);
-global.dirt_magnetude = 0.05;
+global.dirt_magnetude = 0.1;
 
 //  Composite Settings
 global.composite_enabled = true;
