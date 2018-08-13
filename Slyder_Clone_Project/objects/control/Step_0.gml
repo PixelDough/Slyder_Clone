@@ -22,11 +22,15 @@ if keyboard_check_pressed(ord("R")) {
 	room_restart();
 }
 
-if keyboard_check_pressed(ord("W")) global.tube_enabled = !global.tube_enabled //Warp
-
 if keyboard_check_pressed(ord("T")) global.oldtvfilter_enabled = !global.oldtvfilter_enabled; //TV Shader
 
-if keyboard_check_pressed(ord("N")) global.noise_enabled = !global.noise_enabled; //Noise
+if global.oldtvfilter_enabled {
+	if keyboard_check_pressed(ord("W")) global.tube_enabled = !global.tube_enabled //Warp
+
+	if keyboard_check_pressed(ord("N")) global.noise_enabled = !global.noise_enabled; //Noise
+}
+
+if keyboard_check_pressed(ord("Y")) audio_play_sound(snd_yeah, 100, false)
 
 event_user(global.mode);
 
