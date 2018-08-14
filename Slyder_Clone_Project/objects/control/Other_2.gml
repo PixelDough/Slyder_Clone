@@ -7,7 +7,9 @@ global.mode = MODES.PLAY;
 
 randomize()
 
-draw_set_circle_precision(32)
+draw_set_circle_precision(32);
+
+gpu_set_alphatestenable(true);
 
 global.time = 1;
 //!"^~`#$%&'()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[_]" 

@@ -16,12 +16,12 @@ global.oldtvfilter_enabled = true;
 //  this is based in your game resolution, 
 //  not the game window resolution.
 //  ex.: NES uses 224 lines
-global.game_lines = camera_get_view_height(view_camera[0]);
+global.game_lines = camera_get_view_height(view_camera[0])*2;
 
 //  Noise
 global.noise_enabled = true;
 global.noise_pattern = sprite_get_texture(sprNoise1,0);
-global.noise_magnetude = 0.1;
+global.noise_magnetude = 0.0;
 global.static_pattern = sprite_get_texture(sprStatic1,0);
 global.static_magnetude = 0.05;
 global.static_scale = 0.25;

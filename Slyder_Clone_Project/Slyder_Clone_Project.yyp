@@ -655,6 +655,14 @@
             }
         },
         {
+            "Key": "755b0f73-4868-4393-89d8-31ec6a7793a8",
+            "Value": {
+                "id": "c7c0e671-3993-43b6-8a56-4961c327c127",
+                "resourcePath": "scripts\\draw_self_transparent\\draw_self_transparent.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "75bf22ff-0b52-4f5e-9dc8-934986ffdc3a",
             "Value": {
                 "id": "46276abc-5101-4612-b5eb-42730cdcdf84",
@@ -1306,7 +1314,8 @@
         "e82de81b-afd0-4322-b2da-60f6898ab781",
         "26e2d733-47df-4b55-985f-634ee62d3c9b",
         "d7805a57-7cb2-4d8c-8ce6-943cc61c0f1b",
-        "a2b426ed-a6c7-4414-9b7c-2e633f6ad5f2"
+        "a2b426ed-a6c7-4414-9b7c-2e633f6ad5f2",
+        "755b0f73-4868-4393-89d8-31ec6a7793a8"
     ],
     "tutorial": ""
 }

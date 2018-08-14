@@ -4,9 +4,17 @@
 ///@argument amplitude
 ///@argument period
 
+
 var myString = argument2;
 
-var draw_x = argument0;
+//var ha = argument[5];
+//var va = argument[6];
+
+//get how long the string is in terms of width
+var length = string_length(string(myString));
+var width = string_width(string(myString));
+
+var draw_x = argument0// - (width/2);
 var draw_y = argument1;
 
 var amp = argument3; //shakeyness
@@ -14,8 +22,7 @@ var period = argument4;
 
 
 
-//get how long the string is in terms of width
-var length = string_length(string(myString));
+
 
 for(var i=1;i<=length;i++) { //loop through each character of the string
     var str = string_copy(myString,i,1); //1 character of the string 

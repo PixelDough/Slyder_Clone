@@ -1,1 +1,1 @@
-fade = 1;
+global.noise_magnetude = 1;

@@ -1,2 +1,2 @@
-image_alpha = 0.75;
-draw_self();
+//image_alpha = 0.75;
+draw_self_transparent();

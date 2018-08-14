@@ -5,7 +5,7 @@
 
 global.noise_magnetude += 0.05;
 
-if global.noise_magnetude >= 1 {
+if global.noise_magnetude >= 1.5 {
 	instance_destroy();
 	room_goto(target);
 }
