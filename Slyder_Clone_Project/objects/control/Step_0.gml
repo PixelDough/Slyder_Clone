@@ -3,7 +3,11 @@ if room == parent {
 }
 
 if keyboard_check_pressed(vk_escape) {
-	game_end();
+	if room >= level1_test {
+		room_goto_fade(rm_menu);
+	} else {
+		game_end();
+	}
 }
 
 
