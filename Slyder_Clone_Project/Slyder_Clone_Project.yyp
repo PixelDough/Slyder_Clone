@@ -410,7 +410,7 @@
             "Key": "3fd15495-fa88-4357-ac09-b6fd4f96b63c",
             "Value": {
                 "id": "909fb06c-d45e-4cbb-8e58-d1484dbbaa13",
-                "resourcePath": "objects\\obj_fade_in\\obj_fade_in.yy",
+                "resourcePath": "objects\\obj_fade\\obj_fade.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -779,14 +779,6 @@
             "Value": {
                 "id": "fdcaf993-93db-4640-8bc0-60a6ad4a9c46",
                 "resourcePath": "objects\\level_element\\level_element.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "94b1c916-0389-4396-b480-9472c0975b12",
-            "Value": {
-                "id": "6fe7cfb9-3373-4816-8ef4-b34c3ea55a56",
-                "resourcePath": "objects\\obj_background\\obj_background.yy",
                 "resourceType": "GMObject"
             }
         },
