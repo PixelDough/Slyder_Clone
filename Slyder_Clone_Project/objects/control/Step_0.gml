@@ -1,4 +1,4 @@
-if room == parent {
+if room == parent and music_loaded == true {
 	room_goto_next();
 }
 

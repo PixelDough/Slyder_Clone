@@ -348,7 +348,7 @@
             "inheritLayerDepth": true,
             "inheritLayerSettings": true,
             "inheritSubLayers": false,
-            "inheritVisibility": true,
+            "inheritVisibility": false,
             "instances": [
 {"name": "inst_715DC22E","id": "f3301c89-d1ac-46f6-a348-fb37cafc3b4d","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"inheritCode": true,"inheritItemSettings": true,"IsDnD": false,"m_originalParentID": "e69dcb02-28af-4b07-be66-6dc0309dbb91","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_715DC22E","objId": "ddde2afc-a003-4b53-b777-c285b1012c7c","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.0","x": -16,"y": -16}
             ],

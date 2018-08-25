@@ -19,7 +19,7 @@ global.oldtvfilter_enabled = true;
 global.game_lines = camera_get_view_height(view_camera[0])*2;
 
 //  Noise
-global.noise_enabled = false;
+global.noise_enabled = true;
 global.noise_pattern = sprite_get_texture(sprNoise1,0);
 global.noise_magnetude = 0.0;
 global.static_pattern = sprite_get_texture(sprStatic1,0);
@@ -32,7 +32,7 @@ global.dirt_magnetude = 0.0;
 //  Composite Settings
 global.composite_enabled = true;
 global.composite_secondpass_enabled = true;
-global.composite_distortion = 0.5;          //  0.0 ~ 1.0
+global.composite_distortion = 0;          //  0.0 ~ 1.0
 global.composite_artifact = 0.2;            //  0.0 ~ 1.0
 global.composite_fringing = 0.7;            //  0.0 ~ 1.0
 global.composite_bleeding = 0.5;            //  0.0 ~ 1.0

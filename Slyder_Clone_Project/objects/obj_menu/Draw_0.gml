@@ -16,7 +16,8 @@ for (var _i=0; _i<array_length_1d(main_menu); _i++) {
 		draw_text_transformed(room_width/4, _y+(_i * 9), _item[0], 1, 1, 0);
 		
 		if obj_input.right_pressed {
-			script_execute(_item[1], _item[2])
+			script_execute(_item[1], _item[2]);
+			audio_play_sound(snd_alert01, 100, false);
 		}
 		
 	} else {
