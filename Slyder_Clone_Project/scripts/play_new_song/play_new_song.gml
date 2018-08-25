@@ -1,5 +1,5 @@
 
-audio_stop_all();
+audio_stop_sync_group(audiogroup_music);
 
 you_know_where_to_find_me = [
 	mus_IsThisFruitEdible, 

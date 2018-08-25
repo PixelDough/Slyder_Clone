@@ -14,7 +14,8 @@
         "1ce7dd6e-1fd9-4315-89b8-44d174583576",
         "34c1414d-21a8-4da4-9e6e-1b836d0109e6",
         "80d2c497-86e0-454c-9021-d503fc088486",
-        "509a833e-0c74-4a65-99a1-44c9fcb82cc1"
+        "509a833e-0c74-4a65-99a1-44c9fcb82cc1",
+        "2b1213bf-44d5-40c9-8179-24ea1c7f0517"
     ],
     "filterType": "GMSprite",
     "folderName": "Meta",

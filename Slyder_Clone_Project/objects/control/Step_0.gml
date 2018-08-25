@@ -1,9 +1,13 @@
-if room == parent {
+if room == parent and music_loaded == true {
 	room_goto_next();
 }
 
 if keyboard_check_pressed(vk_escape) {
-	game_end();
+	if room == level1_test {
+		room_goto_fade(rm_menu);
+	} else {
+		game_end();
+	}
 }
 
 
@@ -26,8 +30,6 @@ if keyboard_check_pressed(ord("T")) global.oldtvfilter_enabled = !global.oldtvfi
 
 if global.oldtvfilter_enabled {
 	if keyboard_check_pressed(ord("W")) global.tube_enabled = !global.tube_enabled //Warp
-
-	if keyboard_check_pressed(ord("N")) global.noise_enabled = !global.noise_enabled; //Noise
 }
 
 if keyboard_check_pressed(ord("Y")) audio_play_sound(snd_yeah, 100, false)

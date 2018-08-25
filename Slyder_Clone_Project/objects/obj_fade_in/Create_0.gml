@@ -1,1 +1,0 @@
-global.noise_magnetude = 1;
