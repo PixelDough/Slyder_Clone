@@ -61,5 +61,6 @@ if time >= 660 and time < 900 {
 }
 
 if time == 900 {
-	room_goto_fade(rm_menu)
+	room_goto_fade(rm_menu);
+	
 }

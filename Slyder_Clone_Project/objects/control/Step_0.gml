@@ -18,7 +18,7 @@ if surface_exists(application_surface) {
 	}
 }
 
-if keyboard_check_pressed(ord("F")) {
+if keyboard_check_pressed(ord("F")) and os_type == os_windows {
 	window_set_fullscreen(!window_get_fullscreen())
 }
 

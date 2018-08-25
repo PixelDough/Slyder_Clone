@@ -7,3 +7,5 @@ if room == parent {
 	}
 	
 }
+
+var _hum = audio_play_sound(snd_hum, 100, true);
