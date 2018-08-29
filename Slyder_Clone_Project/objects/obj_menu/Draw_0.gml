@@ -17,7 +17,7 @@ for (var _i=0; _i<array_length_1d(main_menu); _i++) {
 		
 		if obj_input.right_pressed {
 			script_execute(_item[1], _item[2]);
-			audio_play_sound(snd_alert01, 100, false);
+			//audio_play_sound(snd_alert01, 100, false);
 		}
 		
 	} else {

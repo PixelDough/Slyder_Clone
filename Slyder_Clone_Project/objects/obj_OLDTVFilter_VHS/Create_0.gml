@@ -16,23 +16,23 @@ global.oldtvfilter_enabled = true;
 //  this is based in your game resolution, 
 //  not the game window resolution.
 //  ex.: NES uses 224 lines
-global.game_lines = camera_get_view_height(view_camera[0])*2;
+global.game_lines = camera_get_view_height(view_camera[0]);
 
 //  Noise
-global.noise_enabled = false;
+global.noise_enabled = true;
 global.noise_pattern = sprite_get_texture(sprNoise1,0);
-global.noise_magnetude = 0.0;
+global.noise_magnetude = 0.00;
 global.static_pattern = sprite_get_texture(sprStatic1,0);
-global.static_magnetude = 0.00;
-global.static_scale = 0.0;
+global.static_magnetude = 0.05;
+global.static_scale = 0.25;
 global.static_offset = 0.0;
 global.dirt_pattern = sprite_get_texture(sprNoise1,0);
-global.dirt_magnetude = 0.0;
+global.dirt_magnetude = 0.1;
 
 //  Composite Settings
 global.composite_enabled = true;
-global.composite_secondpass_enabled = true;
-global.composite_distortion = 0;          //  0.0 ~ 1.0
+global.composite_secondpass_enabled = false;
+global.composite_distortion = 0.5;          //  0.0 ~ 1.0
 global.composite_artifact = 0.2;            //  0.0 ~ 1.0
 global.composite_fringing = 0.7;            //  0.0 ~ 1.0
 global.composite_bleeding = 0.5;            //  0.0 ~ 1.0
@@ -58,6 +58,6 @@ global.scanline_magnetude = 0.25;            //  0.0 ~ 1.0
 //  Tube Settings
 global.tube_enabled = true;
 global.tube_mask = sprite_get_texture(sprMaskWide1,0);
-global.tube_distortion = 0.5;              // -1.0 ~ 1.0
+global.tube_distortion = 0.25;              // -1.0 ~ 1.0
 
 script_execute( scr_OLDTVFilter_Setup );
