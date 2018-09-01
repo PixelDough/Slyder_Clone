@@ -359,6 +359,14 @@
             }
         },
         {
+            "Key": "39ff4f9b-701e-47a5-84b1-33552cf2a995",
+            "Value": {
+                "id": "0959d008-ba2c-4e87-bd85-259cd2fdb706",
+                "resourcePath": "scripts\\change_menu\\change_menu.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "3abdab0f-919a-4358-82b2-6134e95629c3",
             "Value": {
                 "id": "096ea4e1-03d1-454f-b51c-950bcce9b49d",
@@ -500,6 +508,14 @@
                 "id": "3646a7c6-015a-43da-ae31-eb6caefa86cc",
                 "resourcePath": "scripts\\stop_input\\stop_input.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "5ac00b35-275f-4f01-b1a6-d6015ae3e4c1",
+            "Value": {
+                "id": "0d621f7e-f2f3-4d18-8332-a46a28f36350",
+                "resourcePath": "rooms\\setup\\setup.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -911,6 +927,14 @@
             }
         },
         {
+            "Key": "a6916ecf-8a59-44e1-8ae0-8694cfe6f1ad",
+            "Value": {
+                "id": "1ac632ba-c9bc-4e55-b4bb-2ccf491ba50d",
+                "resourcePath": "sprites\\spr_menu_bar\\spr_menu_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "a768d18c-b51e-41e7-8e35-9f02c2ecc084",
             "Value": {
                 "id": "3ea4abea-6f65-4d04-aae5-c699ba4da6aa",
@@ -1279,6 +1303,14 @@
             }
         },
         {
+            "Key": "f2d361d6-05a9-4d89-bad3-be62d70b6145",
+            "Value": {
+                "id": "7f6209b8-96bd-43cc-b7b8-e09f935f2a67",
+                "resourcePath": "scripts\\change_option\\change_option.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "f2d690d1-7110-4b4a-a441-6ba35c346bdb",
             "Value": {
                 "id": "625f4fd2-6207-4fae-bed0-fc01a781303e",
@@ -1357,7 +1389,9 @@
         "a2b426ed-a6c7-4414-9b7c-2e633f6ad5f2",
         "755b0f73-4868-4393-89d8-31ec6a7793a8",
         "094ba819-73a2-4c9a-8dc2-eb93819b58a1",
-        "99ee0850-9e94-4ac4-b8f8-8f972de0f561"
+        "99ee0850-9e94-4ac4-b8f8-8f972de0f561",
+        "39ff4f9b-701e-47a5-84b1-33552cf2a995",
+        "f2d361d6-05a9-4d89-bad3-be62d70b6145"
     ],
     "tutorial": ""
 }

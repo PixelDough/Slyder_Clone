@@ -7,5 +7,5 @@ if room == parent {
 	}
 	
 }
-
+global.mode = MODES.PLAY;
 var _hum = audio_play_sound(snd_hum, 100, true);
