@@ -10,7 +10,26 @@ if keyboard_check_pressed(vk_escape) {
 	}
 }
 
-
+//if room == level1_test {
+//	var xl = -1;
+//	var xr = -1;
+//	var yu = -1;
+//	var yd = -1;
+//	with all {
+//		if object_index == level_element {
+//			if xl == -1 {
+//				xl = x;
+//				yu = y;
+//				xr = x;
+//				yd = y;
+//			}
+//			if x < xl xl = x;
+//			if x > xr xr = x;
+//			if y < yu yu = y;
+//			if y > yd yd = y;
+//		}
+//	}
+//}
 
 if surface_exists(application_surface) {
 	if global.surface_width != round_n(global.surface_width, 512) or global.surface_height != round_n(global.surface_height, 288) {

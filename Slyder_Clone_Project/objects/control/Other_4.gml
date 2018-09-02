@@ -4,6 +4,7 @@ if room == parent {
 	
 	if room == level1_test {
 		play_new_song();
+		
 	}
 	
 }
