@@ -41,6 +41,17 @@ if _hit {
 	
 }
 
+
+if place_meeting(x, y, obj_stopper_parent) {
+	
+	x = round_n(instance_place(x, y, obj_stopper_parent).x, 16);
+	y = round_n(instance_place(x, y, obj_stopper_parent).y, 16);
+	speed = 0;
+	STATE = MOVE.STOP;
+	
+}
+
+
 if place_empty(x, y){
 	instance_destroy();
 }

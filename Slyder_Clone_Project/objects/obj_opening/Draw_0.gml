@@ -1,12 +1,12 @@
 
-//global.noise_enabled = false;
+global.noise_enabled = false;
 
 if time == 30 {
 	audio_play_sound(snd_tape_in, 100, false);
 }
 
 if time >= 180 {
-	//global.noise_enabled = true;
+	global.noise_enabled = is_noise_enabled;
 	if time < 300 {
 		if time == 180 {
 			audio_play_sound(snd_TV_buzz, 100, false);

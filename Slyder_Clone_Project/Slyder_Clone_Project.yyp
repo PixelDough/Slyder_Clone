@@ -343,6 +343,14 @@
             }
         },
         {
+            "Key": "36857ae0-a02a-4b1a-b672-8bfebfc22c3c",
+            "Value": {
+                "id": "1c194507-0b37-4cd7-92b9-549b792e93c8",
+                "resourcePath": "objects\\obj_stopper_parent\\obj_stopper_parent.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "38e33fde-4c01-455a-a06b-f56e3b736f87",
             "Value": {
                 "id": "72a3e10f-43b6-4fa3-a397-9fd8400e2dc6",
@@ -500,6 +508,14 @@
                 "id": "0240c7c9-f0dc-4b29-9bca-3f5917cbd0b7",
                 "resourcePath": "sounds\\mus_IsThisFruitEdible\\mus_IsThisFruitEdible.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "5437ce96-9721-465b-9090-f88f9b45f158",
+            "Value": {
+                "id": "9ae53018-4a07-4c63-b2b4-1ccf86d59d25",
+                "resourcePath": "sprites\\spr_stopper_parent\\spr_stopper_parent.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
